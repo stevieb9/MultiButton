@@ -8,8 +8,8 @@ set(${PROJECT_NAME}_BOARD uno)
 project(${PROJECT_NAME})
 
 # Define additional source and header files or default arduino sketch files
-set(${PROJECT_NAME}_SRCS multi_button_test.cpp multi_button.cpp)
-set(${PROJECT_NAME}_HDRS multi_button.h)
+set(${PROJECT_NAME}_SRCS multi_button_test.cpp MultiButton.cpp)
+set(${PROJECT_NAME}_HDRS MultiButton.h)
 
 ### Additional static libraries to include in the target.
 # set(${PROJECT_NAME}_LIBS)
